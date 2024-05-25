@@ -6,13 +6,7 @@ from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 # Set page config to wide layout with a white background
 st.set_page_config(page_title='Cyberbullying Detection', page_icon="😊🙂😡",
-                               layout="wide", initial_sidebar_state='collapsed',
-                               theme={
-                                   'base': 'light',
-                                   'backgroundColor': '#FFFFFF',
-                                   'secondaryBackgroundColor': '#FFFFFF',
-                                   'textColor': '#000000'
-                               })
+                   layout="wide", initial_sidebar_state='collapsed')
 
 # Function to convert sentiment to dataframe
 def convert_to_df(sentiment):
